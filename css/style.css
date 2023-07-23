@@ -1,0 +1,55 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+
+/* GENERAL */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open sans', sans-serif;
+    padding: 2rem;
+    height: 100vh;
+}
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.header__logo {
+    width: 8rem;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    font-size: 1.4rem;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* MAIN */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/* FOOTER */
+
+.social-media__logo {
+    height: 2rem;
+}
