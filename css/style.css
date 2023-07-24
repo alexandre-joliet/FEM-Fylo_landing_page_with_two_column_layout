@@ -118,7 +118,7 @@ input::placeholder {
     font-weight: 700;
     padding: 0.8rem 1rem;
     margin-bottom: 8rem;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s, transform 0.1s;
 }
 
 .article1__form__button:hover,
@@ -126,6 +126,12 @@ input::placeholder {
     background-color: hsl(224, 87%, 70%);
     cursor: pointer;
 }
+
+.article1__form__button:active,
+.article3__form__button:active {
+    transform: scale(0.9);
+}
+
 
 .main__article2 {
     background: url(../images/bg-curve-mobile.svg) center no-repeat;
@@ -325,7 +331,6 @@ input::placeholder {
     align-items: center;
 }
 
-
 .social-media__logo {
     filter: brightness(0) invert(1);
     border: 1px solid white;
@@ -334,7 +339,18 @@ input::placeholder {
     height: 3rem;
     width: 3rem;
     overflow: visible;
+    transition: ease-in-out 0.3s, transform 0.1s;
 }
+
+.social-media__logo:hover {
+    background-color: white;
+    filter: brightness(1) invert(0);
+}
+
+.social-media__logo:active {
+    transform: scale(0.9);
+}
+
 
 
 /* MEDIA QUERIES */
