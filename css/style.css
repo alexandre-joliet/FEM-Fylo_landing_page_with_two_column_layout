@@ -10,7 +10,6 @@ html {
 
 body {
     font-family: 'Open sans', sans-serif;
-    padding: 2rem;
     height: 100vh;
 }
 
@@ -30,7 +29,7 @@ input::placeholder {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 6rem;
+    margin: 2rem 2rem 6rem 2rem;
 }
 
 .header__logo {
@@ -53,6 +52,11 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.main__article1,
+.main__article2 {
+    margin: 0 2rem;
 }
 
 .article1__picture,
@@ -91,7 +95,7 @@ input::placeholder {
 
 .article1__form__input,
 .article3__form__input {
-    border-radius: 5px;
+    border-radius: 3px;
     font-size: 1.4rem;
     padding: 0.7rem 1rem;
 }
@@ -101,7 +105,7 @@ input::placeholder {
     background-color: hsl(224, 93%, 58%);
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
@@ -210,6 +214,39 @@ input::placeholder {
 
 .testimonials__position {
     font-size: 0.8rem;
+}
+
+.main__article3 {
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    gap: 2rem;
+    padding: 5rem 2.5rem;
+    text-align: center;
+}
+
+.article3__title {
+    font-size: 1.6rem;
+}
+
+.article3__text {
+    font-size: 1.3rem;
+}
+
+.article3__form {
+    gap: 1rem;
+}
+
+.article3__form__input--bottom[type=email] {
+    border: none;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
+}
+
+.article3__form__button--bottom {
+    font-size: 1.2rem;
+    margin-bottom: 0;
 }
 
 
