@@ -324,7 +324,7 @@ input::placeholder {
 @media all and (min-width:800px) {
 
     .header {
-        margin: 5rem 5rem 6rem 5rem;
+        margin: 6rem;
     }
    
     .header__logo {
@@ -333,6 +333,7 @@ input::placeholder {
     
     .nav__links {
         gap: 3rem;
+        font-size: 1.6rem;
         padding-right: 1.5rem;
     }
 
@@ -341,10 +342,10 @@ input::placeholder {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin: 0 5rem 30rem 5rem;
+        margin: 0 6rem 30rem 6rem;
     }
 
-    .article__content {
+    .article1__content {
         margin-right: 5rem;
         width: 50%;        
     }
@@ -367,16 +368,16 @@ input::placeholder {
     }
 
     .article1__form {
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    margin-bottom: 5rem;
-    padding: 0;
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        margin-bottom: 5rem;
+        padding: 0;
     }
 
     .article1__form__button {
        margin-bottom: 0;
-       padding: 0 5rem;
+       padding: 0 7rem;
     }
 
     .article1__form__input {
@@ -386,7 +387,7 @@ input::placeholder {
     .main__article2 {
         display: flex;
         align-items: center;
-        margin: 0 5rem 10rem 5rem;
+        margin: 0 6rem 10rem 6rem;
     }
  
     .article2__picture {
@@ -395,7 +396,7 @@ input::placeholder {
         order: 2;
     }
 
-    .article__content1 {
+    .article2__content {
         display: flex;
         flex-direction: column;
     }
@@ -429,10 +430,6 @@ input::placeholder {
         height: 2rem;
     }
 
-
-
-
-
     .article2__testimonials {
         padding: 4rem;
         width: 40rem;
@@ -453,4 +450,63 @@ input::placeholder {
     .testimonials__position {
         font-size: 1rem;
     }
+
+    .main__article3 {
+        flex-direction: row;
+        align-items: center;
+        padding: 8rem 6rem;
+    }
+
+    .article3__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+        padding-right: 15rem;
+        text-align: left;
+    }
+
+    .article3__title {
+        font-size: 2.4rem;
+    }
+
+    .article3__text {
+        font-size: 1.6rem;
+    }
+
+    .article3__form__input {
+        width: 50rem;
+    }
+
+    .article3__form__button--bottom {
+        width: 22rem;
+        font-size: 1.6rem;
+    }
+
+    .article1__form__input,
+    .article3__form__input {
+        font-size: 1.6rem;
+        padding: 1.25rem 1rem;
+    }
+    
+    .article3__form__button {
+        padding: 1.2rem 1rem;
+    }
+
+    .footer {
+        padding: 10rem 6rem 6rem;
+    }
+
+    .footer__content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .footer__contact {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
