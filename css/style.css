@@ -318,3 +318,139 @@ input::placeholder {
     overflow: visible;
 }
 
+
+/* MEDIA QUERIES */
+
+@media all and (min-width:800px) {
+
+    .header {
+        margin: 5rem 5rem 6rem 5rem;
+    }
+   
+    .header__logo {
+        width: 10rem;
+    }
+    
+    .nav__links {
+        gap: 3rem;
+        padding-right: 1.5rem;
+    }
+
+    .main__article1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5rem 30rem 5rem;
+    }
+
+    .article__content {
+        margin-right: 5rem;
+        width: 50%;        
+    }
+
+    .article1__picture {
+        max-width: 50%;
+        margin: auto;
+        order: 2;
+    }
+
+    .article1__title {
+        font-size: 3.8rem;
+        text-align: left;
+    }
+    
+    .article1__text {
+        font-size: 1.6rem;
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .article1__form {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-bottom: 5rem;
+    padding: 0;
+    }
+
+    .article1__form__button {
+       margin-bottom: 0;
+       padding: 0 5rem;
+    }
+
+    .article1__form__input {
+        width: 30rem;
+    }
+
+    .main__article2 {
+        display: flex;
+        align-items: center;
+        margin: 0 5rem 10rem 5rem;
+    }
+ 
+    .article2__picture {
+        max-width: 45%;
+        margin: auto;
+        order: 2;
+    }
+
+    .article__content1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article2__testimonials {
+        margin: 0;
+    }
+    
+    .article2__sectiontop {
+        display: block;
+        margin-right: 10rem;
+        margin-bottom: 3rem;
+    }
+
+    .article2__title {
+        font-size: 3.8rem;
+        text-align: left;
+    }
+
+    .article2__text {
+        font-size: 1.6rem;
+        padding-right: 10rem;
+    }
+
+    .article2__link--a {
+        font-size: 1.6rem;
+    }
+
+    .article2__link--icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+
+
+
+
+    .article2__testimonials {
+        padding: 4rem;
+        width: 40rem;
+    }
+    
+    .testimonials__text {
+        font-size: 1.4rem;
+    }
+        
+    .testimonials__avatar {
+        width: 3.5rem;
+    }
+        
+    .testimonials__author {
+        font-size: 1.3rem;
+    }
+    
+    .testimonials__position {
+        font-size: 1rem;
+    }
+}
