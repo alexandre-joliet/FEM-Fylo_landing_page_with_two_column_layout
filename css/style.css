@@ -357,6 +357,10 @@ input::placeholder {
 
 @media all and (min-width:800px) {
 
+    input::placeholder {
+        font-size: 1.6rem;
+    }
+
     .header {
         margin: 6rem;
     }
